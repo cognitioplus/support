@@ -7,18 +7,39 @@
   <meta name="description" content="Cognitio+ Helpdesk - Empowering communities with mental health and substance abuse support." />
   <link rel="manifest" href="/manifest.json" />
   <title>Cognitio+ Helpdesk</title>
-  <script src="script.js"></script>
-  <style>"style.css"</style>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com "></script>
+  <style>
+    body {
+      background-color: #f9fafb;
+    }
+    .bg-gradient {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .shadow-lg {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body class="font-sans text-gray-900">
   <!-- Header -->
-        <div>
+  <header class="bg-white shadow-sm sticky top-0 z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <div class="flex-shrink-0 flex items-center">
+            <!-- Cognitio+ Logo -->
+            <img src="https://appimize.app/assets/apps/user_1097/app_3046/draft/icon/app_logo.png?1752421638" alt="Cognitio+ Logo" class="h-8 w-auto" />
+            <span class="ml-2 text-xl font-bold text-gray-800">Cognitio-Plus</span>
+          </div>
+        </div>
         <nav class="hidden md:flex items-center space-x-4">
+          <a href=" https://cognitio-plus.appimize.app/home " class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">Home</a>
           <a href="#dashboard" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">Dashboard</a>
           <a href="#submit" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">Submit Request</a>
-          <a href="https://cognitio-plus.appimize.app/faq" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">FAQ</a>
-          <a href="https://m.me/1202787191563496?is_ai=1" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">Cognitio+ AI</a>
-          <a href="https://cognitio-plus.appimize.app/login" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Login</a>
+          <a href="https://cognitio-plus.appimize.app/faq " class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">FAQ</a>
+          <a href="#messenger" class="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100">AI Chat</a>
+          <a href="https://cognitio-plus.appimize.app/login " class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Login</a>
         </nav>
       </div>
     </div>
@@ -140,6 +161,7 @@
       </div>
     </section>
 
+    
     <!-- AI Chat Section -->
     <section id="messenger" class="px-4 py-6 sm:px-0">
       <div class="bg-white overflow-hidden shadow rounded-lg">
@@ -172,17 +194,13 @@
     </section>
   </main>
 
-  <!-- Footer -->
+ <!-- Footer -->
   <footer class="bg-white border-t border-gray-200">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div class="flex items-center">
-            <svg class="h-8 w-8 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <img src=" https://appimize.app/assets/apps/user_1097/app_3046/draft/icon/app_logo.png?1752421638" alt="Cognitio+ Logo" class="h-8 w-auto" />
             <span class="ml-2 text-xl font-bold text-gray-800">Cognitio-Plus</span>
           </div>
           <p class="mt-4 text-gray-600">
@@ -192,39 +210,40 @@
         <div>
           <h3 class="text-sm font-semibold text-gray-600 tracking-wider uppercase">Quick Links</h3>
           <ul class="mt-4 space-y-4">
-            <li><a href="#" class="text-gray-600 hover:text-blue-600">Home</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-blue-600">About</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-blue-600">Helpdesk</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-blue-600">Contact</a></li>
+            <li><a href=" https://cognitio-plus.appimize.app/home " class="text-gray-600 hover:text-blue-600">Home</a></li>
+            <li><a href="https://cognitio-plus.appimize.app/about " class="text-gray-600 hover:text-blue-600">About</a></li>
+            <li><a href="https://cognitio-plus.appimize.app/helpdesk " class="text-gray-600 hover:text-blue-600">Helpdesk</a></li>
+            <li><a href="https://cognitio-plus.appimize.app/contact " class="text-gray-600 hover:text-blue-600">Contact</a></li>
           </ul>
         </div>
         <div>
           <h3 class="text-sm font-semibold text-gray-600 tracking-wider uppercase">Resources</h3>
           <ul class="mt-4 space-y-4">
-            <li><a href="https://cognitio-plus.appimize.app/faq/" class="text-gray-600 hover:text-blue-600">FAQ</a></li>
-            <li><a href="https://cognitio-plus.appimize.app/policies/" class="text-gray-600 hover:text-blue-600">Policies</a></li>
-            <li><a href="https://cognitio-plus.appimize.app/resources/" class="text-gray-600 hover:text-blue-600">Resources</a></li>
-          </ul>
-          <li><a href="https://cognitio-plus.appimize.app/contact/" class="text-gray-600 hover:text-blue-600">Contact</a></li>
+            <li><a href="https://cognitio-plus.appimize.app/faq " class="text-gray-600 hover:text-blue-600">FAQ</a></li>
+            <li><a href="https://cognitio-plus.appimize.app/guidelines " class="text-gray-600 hover:text-blue-600">Guidelines</a></li>
+            <li><a href="https://cognitio-plus.appimize.app/training " class="text-gray-600 hover:text-blue-600">Training Materials</a></li>
           </ul>
         </div>
         <div>
           <h3 class="text-sm font-semibold text-gray-600 tracking-wider uppercase">Contact</h3>
           <ul class="mt-4 space-y-4">
             <li class="flex items-start">
-              <span class="ml-3 text-gray-600">hello@cognitioplus.com</span>
+              <svg class="h-5 w-5 text-gray-400 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM13.71 11.71l3-3a1 1 0 00-1.41-1.41l-3 3a1 1 0 001.41 1.41z" clip-rule="evenodd" />
+              </svg>
+              <span class="ml-3 text-gray-600">support@cognitio-plus.com</span>
             </li>
             <li class="flex items-start">
               <svg class="h-5 w-5 text-gray-400 mt-1" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M2 3a1 1 0 011-1h2.105a1 1 0 01.983.836l.747 4.457a1 1 0 01-.544.901l-2.8 1.4a1 1 0 01-.92.09l-1.388-.554a1 1 0 01-.614-1.098l.84-2.635a1 1 0 01.22-.665V2a1 1 0 011-1zm13.315 1.612a1 1 0 01.22.665l.84 2.635a1 1 0 01-.614 1.098l-1.388.554a1 1 0 01-.92-.09l-2.8-1.4a1 1 0 01-.544-.901l.747-4.457a1 1 0 01.983-.836H17a1 1 0 011 1v.062a1 1 0 01-.105.374z" clip-rule="evenodd" />
               </svg>
-              <span class="ml-3 text-gray-600">+63 954 198 6522</span>
+              <span class="ml-3 text-gray-600">+1 (800) 123-4567</span>
             </li>
             <li class="flex items-start">
               <svg class="h-5 w-5 text-gray-400 mt-1" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
               </svg>
-              <span class="ml-3 text-gray-600"></span>
+              <span class="ml-3 text-gray-600">123 Wellness Street, Mental Health City</span>
             </li>
           </ul>
         </div>
