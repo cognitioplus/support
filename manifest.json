@@ -1,14 +1,14 @@
 {
-  "short_name": "Cognitio+",
+  "short_name": "Helpdesk",
   "name": "Cognitio+ Helpdesk",
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "https://appimize.app/assets/apps/user_1097/app_3046/draft/icon/app_logo.png?1752421638",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "https://appimize.app/assets/apps/user_1097/app_3046/draft/icon/app_logo.png?1752421638",
       "type": "image/png",
       "sizes": "512x512"
     }
